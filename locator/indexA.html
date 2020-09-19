@@ -22,7 +22,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link ml-1 text-white" href="index.html">HOME<span class="sr-only">(current)</span></a>
+                  <a class="nav-link ml-1 text-white" href="#">HOME<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item ml-1">
                   <a class="nav-link text-white " href="#testimonials">ABOUT</a>
@@ -78,3 +78,50 @@
           </div>
       </div>
   </section>
+  <section class="stat" id="stats">
+    <div class="container text-center my-5 text-dark">
+        <h1 class="title text-center">STATISTICS</h1>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="stat-items">
+                    <img src="img/doctor.svg" class="img-fluid">
+                    <h2><span class="counter text-center">6789</span><span>+</span></h2>
+                    <h3 class="text-dark">Number of Lives saved</h3>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div class="stat-items">
+                    <img src="img/happy.svg" class="img-fluid">
+                    <h2><span class="counter text-center">7789</span><span>+</span></h2>
+                    <h3  class="text-dark">Happy Clients</h3>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div class="stat-items">
+                    <img src="img/hospital.svg" class="img-fluid">
+                    <h2><span class="counter text-center">570</span><span>+</span></h2>
+                    <h3 class="text-dark">Number of Hospitals Associated</h3>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div class="stat-items">
+                    <img src="img/states.svg" class="img-fluid">
+                    <br><br>
+                    <h2 class="mr-2"><span class="counter text-center">12</span><span>+</span></h2>
+                    <h3  class="text-dark">States Associated</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
+    <script>
+    $(document).ready(function()
+    {
+        $('.counter').counterUp({
+        delay: 10,
+        time: 2000
+    });
+    });
+    </script>
