@@ -172,3 +172,16 @@ ul{
     width:75%;
     height:75%;
 }
+#footer
+{
+    background-image: linear-gradient(to bottom,#4287f5,#9bc0fa);
+    color:white;
+    font-weight: 500;
+}
+
+.footer-info
+{
+    border-left:4px solid white;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
