@@ -29,11 +29,11 @@ body{
 {
     transform: translateY(-5px);
 }
-li .active
+/* li .active
 {
     background-color: aliceblue;
     border-radius: 20%;
-}
+} */
 #banner
 {
    background-image: linear-gradient(to bottom,#9bc0fa,#4287f5);
@@ -69,6 +69,7 @@ li .active
 h4{
     color: #1c1b1f;
     font-weight: 700;
+    font-size: 120%;
     padding: 2%;
 }
 #img1,#img2
@@ -100,4 +101,29 @@ h4{
     margin-bottom: 40px;
     display: block;
     transform: translateY(8px);
+}
+@media screen and (max-width: 900px){
+	.title::before
+{
+    content: '';
+    background:none;
+    height:5px;
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background:none;
+    height:10px;
+    width:50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(63px);
+}
 }

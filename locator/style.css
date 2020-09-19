@@ -1,0 +1,49 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ramabhadra', sans-serif;
+}
+#nav-bar
+{
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+.navbar
+{
+    background-image:linear-gradient(to right,#9bc0fa,#9bc0fa);
+    padding: 0;
+}
+.navbar-brand
+{
+    padding-left: 2%;
+}
+.navbar-nav
+{
+    font-weight: 700;
+}
+.navbar-nav li a:hover
+{
+    transform: translateY(-5px);
+}
+#banner
+{
+   background-image: linear-gradient(to bottom,#9bc0fa,#4287f5);
+}
+.promo-title
+{
+    font-weight: 800;
+    font-size: 200%;
+    margin-top: 20%;
+    color: aliceblue;
+}
+.info
+{
+    font-family: monospace;
+    font-size: 150%;
+    color: aliceblue;
+    text-transform: uppercase;
+}
