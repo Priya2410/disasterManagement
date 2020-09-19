@@ -1,8 +1,8 @@
 <?php 
-$dbServername = "localhost";
-$dbUsername = "root";
-$dbPassword = "";
-$dbName = "paymentgateway";
+ $dbServername = "localhost";
+ $dbUsername = "root";
+ $dbPassword = "";
+ $dbName = "paymentgateway";
 $conn= mysqli_connect($dbServername,$dbUsername,$dbPassword,$dbName);?>
 <!doctype html>
 <html lang="en">
