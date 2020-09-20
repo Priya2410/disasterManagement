@@ -24,6 +24,19 @@ really in need in these tough times. JOIN US is a section through which anyone
 can be a part of our part and help us assisting the same! Through a simple form
 and by filling it out, anyone can be a part of our team!
 Let us all join hands and be a helping hand, today!</p><br>
+
 ![](https://github.com/Priya2410/disasterManagement/blob/master/img/frontpage.png?raw=true)<br>
+
 ![](https://github.com/Priya2410/disasterManagement/blob/master/img/locator.png?raw=true)<br>
+
+![](https://github.com/Priya2410/disasterManagement/blob/master/img/donate.png?raw=true)<br>
+
+![](https://github.com/Priya2410/disasterManagement/blob/master/img/donate.png?raw=true)<br>
+
+![](https://github.com/Priya2410/disasterManagement/blob/master/img/signin.png?raw=true)<br>
+
+![](https://github.com/Priya2410/disasterManagement/blob/master/img/signup.png?raw=true)<br>
+
+
+
 
