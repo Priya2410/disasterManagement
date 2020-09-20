@@ -110,6 +110,31 @@ body{
     display: block;
     transform: translateY(8px);
 }
+@media screen and (max-width: 900px){
+	.title::before
+{
+    content: '';
+    background:none;
+    height:5px;
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background:none;
+    height:10px;
+    width:50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(63px);
+}
+}
 #footer
 {
     background-image: linear-gradient(to bottom,#4287f5,#9bc0fa);
