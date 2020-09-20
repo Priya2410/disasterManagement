@@ -1,6 +1,6 @@
 # Disaster Management
 <p>In the recent few years, there has been a upsurge in the number of nuclear
-disasters and nuclear accidents. We, at <strong><i><u>Give A Hand</i></u></strong> aim to be a
+disasters and nuclear accidents. We, at <strong><i><u>Vision in Fission</i></u></strong> aim to be a
 helping hand to people at these crucial and difficult times of disaster. Helping
 hands are better than praying lips is our moto which is a driving force for our
 website. Completely designed using web development, it has been made
